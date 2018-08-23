@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        table
+        {
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table td {
+            border-top: 0;
+            border-right: 1px solid rgba(0, 0, 0, .1);
+            border-bottom: 1px solid rgba(0, 0, 0, .1);
+            border-left: 0;
+        }
+        /* css3样式，获取表格的最后一行 */
+        table tr:last-child td{
+            border-bottom: 0;
+        }
+        /* css3样式，获取表格的最后一列 */
+        table tr td:last-child {
+            border-right: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="content" style="margin: 0 auto" >
+    <table>
+        <tr>
+            <td><img src="server/views/images/ad1.png"></td>
+            <td><img src="server/views/images/ad2.png"></td>
+            <td><img src="server/views/images/ad3.png"></td>
+            <td><img src="server/views/images/ad4.png"></td>
+        </tr>
+        <tr>
+            <td><img src="server/views/images/ad5.png"></td>
+            <td><img src="server/views/images/ad6.png"></td>
+            <td><img src="server/views/images/ad7.png"></td>
+            <td><img src="server/views/images/ad8.png"></td>
+        </tr>
+        <tr>
+            <td><img src="server/views/images/ad9.png"></td>
+            <td><img src="server/views/images/ad10.png"></td>
+            <td><img src="server/views/images/ad11.png"></td>
+            <td><img src="server/views/images/ad12.png"></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,590 @@
+@charset "gb2312";
+/* CSS Document */
+* {
+    padding: 0;
+    margin: 0 auto;
+
+}
+
+.body
+{
+    min-width: 1366px;
+    margin: 0 auto;
+}
+
+.container {
+    width: auto;
+}
+
+.header {
+    background: url('../images/background.png') center  center no-repeat;
+    width: 100%;
+    height: 845px;
+    margin: 0 auto;
+
+
+}
+
+.container_2 {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.logo_nav {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.logo_left {
+    margin-top: 40px;
+    background-image: url("../images/logo.png");
+    width: 220px;
+    height: 116px;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+.nav_right {
+    margin-top: 40px;
+    float: right;
+}
+
+#login
+{
+    border: 1px solid #CCC;
+    border-radius:5px;
+
+}
+#login:hover
+{
+    border-bottom-style:solid;
+    border-bottom-width:medium;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.nav_right ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav_right ul li {
+    font-size: 1.125rem;
+    float: left;
+}
+
+.nav_right ul li a, div.nav_right ul li a:visited {
+    color: #FFFFFF;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 33px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.nav_right ul li a:hover {
+    border-style:none;
+    border-bottom-style:solid;
+    border-bottom-width:medium;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nav_right ul li a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header_title {
+    color: #FFFFFF;
+    text-align: center;
+    clear: both;
+}
+
+.header_title p {
+    font-size: 3rem;
+    color: #FFFFFF;
+
+}
+
+#font_1 {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+#font_2 {
+    font-size: 1.125rem;
+    color: #FFFFFF;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.button_dependent {
+    margin-top: 20px;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+    border: 1px solid #CCC;
+    float: left;
+    width: 160px;
+    margin-left: 35%;
+    text-align: center;
+    border-radius:5px;
+
+
+}
+.button_dependent:hover
+{
+    background: #FFFFFF;
+}
+.button_dependent a
+{
+    text-decoration:none;
+    color: #FFFFFF;
+}
+.button_dependent a:hover
+{
+
+    color: red;
+}
+.button_dependent1 a
+{
+    text-decoration:none;
+    color: #FFFFFF;
+}
+.button_dependent1 {
+    margin-top: 20px;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+    border: 1px solid #CCC;
+    float: right;
+    width: 160px;
+    margin-right: 35%;
+    text-align: center;
+    border-radius:5px;
+}
+.button_dependent1:hover
+{
+    background: #FFFFFF;
+
+}
+.button_dependent1 a:hover
+{
+    color: red;
+}
+.main
+{
+    width: 1366px;
+    text-align: center;
+    margin: 0 auto;
+}
+.server_region_main
+{
+    margin-top: 60px;
+}
+.server_region2{
+    margin-top: 40px;
+    font-size: 2.5rem;
+    color:#3c3c3c;
+
+}
+.server_region3
+{
+    width: 572px;
+    height: 311px;
+    font-size: 1.375rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 1px;
+    color: #3c3c3c;
+    float: left;
+    text-align: left;
+    line-height: 38px;
+    float: right;
+
+}
+.recommend
+{
+    float: left;
+}
+
+.we_server_title
+{
+    clear: both;
+    padding-top:60px;
+}
+.we_server_main
+{
+    margin-top: 60px;
+}
+.we_server_main1
+{
+    float: left;
+}
+.box_office_title
+{
+
+    text-align: left;
+    margin-left: 140px;
+    font-size: 1.875rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 40px;
+    letter-spacing: 2px;
+    color: #3c3c3c;
+}
+.box_office_main
+{
+    margin-top: 40px;
+    width: 565px;
+    height: 215px;
+    font-size: 1.375rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 48px;
+    letter-spacing: 1px;
+    color: #3c3c3c;
+    text-align: left;
+
+}
+.box_office_main_image
+{
+    float:right;
+}
+.film_movice
+{
+    clear: both;
+}
+.film_movice_image
+{
+    float: left;
+   padding-top: 194px;
+}
+.film_movice_main
+{
+    float: right;
+    padding-top: 194px;
+}
+.film_movice_title
+{
+    text-align: left;
+    margin-left: 250px;
+    font-size: 1.875rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 40px;
+    letter-spacing: 2px;
+    color: #3c3c3c;
+}
+.film_movice_main_main
+{
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 566px;
+    height: 118px;
+    font-size: 1.375rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 48px;
+    letter-spacing: 1px;
+    color: #3c3c3c;
+    text-align: left;
+}
+.marketing_monitoring
+{
+    clear: both;
+}
+.marketing_monitoring_main
+{
+    float: left;
+    padding-top: 194px;
+}
+.marketing_monitoring_title
+{
+    text-align: left;
+    margin-left: 200px;
+    font-size: 1.875rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 40px;
+    letter-spacing: 2px;
+    color: #3c3c3c;
+}
+.marketing_monitoring_main_main
+{
+    margin-top: 40px;
+    width: 548px;
+    height: 71px;
+    font-size: 1.375rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 48px;
+    letter-spacing: 1px;
+    color: #3c3c3c;
+}
+.marketing_monitoring_image
+{
+    float: right;
+    padding-top: 194px;
+}
+.data_report
+{
+    clear: both;
+}
+.data_report_image
+{
+    float: left;
+    padding-top: 194px;
+}
+.data_report_main
+{
+    float: right;
+    padding-top: 194px;
+}
+.data_report_title
+{
+    margin-top: 130px;
+    text-align: left;
+    margin-left: 250px;
+    font-size: 1.875rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 40px;
+    letter-spacing: 2px;
+    color: #3c3c3c;
+
+}
+.data_report_main_main
+{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 566px;
+    height: 118px;
+    font-size: 1.375rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 48px;
+    letter-spacing: 1px;
+    color: #3c3c3c;
+    text-align: left;
+}
+/*页面主题结束*/
+
+/*数据驱动开始*/
+.server
+{   clear: both;
+    background: url("../images/server.png") no-repeat;
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+    height: 900px;
+    margin:  0 auto;
+}
+.banner
+{
+    clear: both;
+    text-align: center;
+}
+
+.footer
+{
+    background: url("../images/img_footer2.PNG") center no-repeat;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    min-width: 1366px;
+}
+.footer_content
+{
+    text-align: center;
+    width: 1366px;
+    margin:0 auto;
+}
+.logo_footer
+{
+    padding-top: 480px;
+    float:left;
+    margin-left: 84px;
+}
+.logo_footer_main
+{
+    float: left;
+    padding-top: 460px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 80px;
+    line-height: 32px;
+    opacity: 0.8;
+
+}
+.copyright
+{
+    clear: both;
+    padding-top: 80px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    text-align: center;
+
+}
+.layer
+{
+    display: flex;
+    margin: 0 auto;
+    clear: both;
+    width: 1600px;
+    height: 800px;
+    padding-top: 50px;
+    text-align: center;
+}
+.layer div
+{
+    width: 332px;
+    height: 454px;
+}
+.layer div:hover
+{
+    box-shadow:0 0 10px 0 #3c3c3c;
+}
+#layer1
+{
+    background:url("../images/realoff.png");
+    width: 332px;
+    height: 454px;
+    float: left;
+    margin-right: 43px;
+}
+#layer2
+{
+    background:url("../images/magnanimityoff.png");
+    width: 332px;
+    height: 454px;
+    float: left;
+    margin-right: 43px;
+}
+#layer3
+{
+    background:url("../images/polybasicoff.png");
+    width: 332px;
+    height: 454px;
+    float: left;
+    margin-right: 43px;
+}
+#layer4
+{
+    background:url("../images/graboff.png");
+    width: 332px;
+    height: 454px;
+    float: left;
+    margin-right: 43px;
+}
+#layer1:hover
+{
+    background:url("../images/realon.png");
+    width: 350px;
+    height: 506px;
+}
+#layer2:hover
+{
+    background:url("../images/magnanimityon.png");
+    width: 350px;
+    height: 506px;
+}
+#layer3:hover
+{
+    background:url("../images/polybasicon.png");
+    width: 350px;
+    height: 506px;
+}
+#layer4:hover
+{
+    background:url("../images/grabon.png");
+    width: 350px;
+    height: 506px;
+}
+/*宽度小于1366*/
+@media screen and (max-width: 1366px){
+.logo_left
+{
+    margin-left: 40px;
+}
+.nav_right
+{
+ margin-right: 50px;
+}
+.main
+{
+    margin-left: 10px;
+}
+.server_region3
+{
+    margin-right: 40px;
+}
+.box_office_main
+{
+    margin-left: 40px;
+}
+.box_office_main_image
+{
+    margin-right: 40px;
+}
+.film_movice_main
+{
+    margin-right: 40px;
+}
+.marketing_monitoring_main
+{
+    margin-left: 40px;
+}
+.marketing_monitoring_image
+{
+    margin-right: 40px;
+}
+.data_report_image{
+    margin-left: 40px;
+}
+.data_report_main{
+    margin-right: 40px;
+}
+.layer
+{
+    width: 100%;
+}
+#layer1
+{
+    background-size: 330px 454px;
+    margin-left: 20px;
+}
+#layer2
+{
+ background-size: 330px 454px;
+ }
+#layer3
+{
+    background-size: 330px 454px;
+}
+#layer4
+{
+   background-size: 330px 454px;
+}
+#layer1:hover
+ {
+   background-size: 340px 520px;
+ }
+#layer2:hover
+{
+   background-size: 310px 550px;
+}
+#layer3:hover
+{
+  background-size: 310px 550px;
+}
+#layer4:hover
+{
+ background-size: 310px 550px;
+}
+}

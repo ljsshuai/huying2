@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="//127.0.0.1:3333/upload"  enctype="multipart/form-data" method="post">
+    <input type="file" name="file" title="上传">
+    <button type="button" onclick="upload()">提交</button>
+</form>
+</body>
+<script>
+    function upload(){
+        var formData = new FormData();
+        console.dir(document.getElementsByTagName('input')[0].files[0])
+        formData.append("file",document.getElementsByTagName('input')[0].files[0])
+        fetch('//127.0.0.1:3333/upload',{
+            method: 'POST',
+            body:formData,
+            // credentials: 'include' //   强制加入d凭据头
+        }).then(data=>{
+            console.log(data)
+        }).catch(err=>{
+            console.log(err)
+        })
+    }
+</script>
+</html>

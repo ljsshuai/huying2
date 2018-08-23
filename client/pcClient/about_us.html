@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" href="css/about_us.css" rel="stylesheet">
+    <style>
+        .white_content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 30%;
+            width: 40%;
+            height: 40%;
+            padding: 20px;
+            background-color: white;
+            z-index:1002;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="list_container">
+<div class="list_header">
+    <div class="container_2">
+        <div class="logo_left"></div>
+        <div class="nav_right">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="tiger_introduction.html">产品</a></li>
+                <li><a href="tiger_talk.html">虎说</a></li>
+                <li><a href="about_us.html">关于我们</a></li>
+                <li><a id="login" href="#">登录</a></li>
+            </ul>
+        </div>
+        <div class="list_title"><span>关于我们</span></div>
+    </div>
+</div><!--头部结束-->
+    <div class="list_main">
+    <div class="list_nav"><img src="images/home.png"><a>当前位置</a> >> <a>首页</a> >> <a>关于我们</a> </div>
+        <div class="main">
+            <div class="server_region_title">
+                <div class="server_region2">公司简介</div>
+                <div><img src="images/points.png"></div>
+            </div>
+            <div class="company_profile_text">
+                <p>
+                 公司2016年2月在集美落户，公司发展目标是将基于大数据的影视全过程智能决策支持系统，<br/>
+                               打造成为国内最全、最深的影视大数据全过程分析平台，<br/>
+                                          争取3-5年内完成国内上市，<br/>
+                逐步成为全球一流的电影大数据分析与决策支持公司，助力厦门市在文华影视产业上的快速发展。<br/>
+                                           公司拥有核心自主知识产权，<br/>
+                             包含3项授权发明专利、1项公开发明专利和10多项软件著作权；<br/>
+                      团队成员拥有丰富的数据挖掘、大数据、影视大数据分析背景、以及影视行业背景。</p>
+            </div>
+            </div>
+    </div>
+            <div class="join_we_title">
+               <div class="join_we_main">加入我们</div>
+                <div><img src="images/points.png"></div>
+                   <div  class="post_job">
+                       <ul class="post_job1">
+                           <li ><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'"><img src="images/technologyoff.png" id="technology" onclick="changeImage('technology')"><p>技术经理</p></a>
+                           </li>
+                           <li ><img src="images/Pythonoff.png" id="Python" onclick="changeImage('Python')"><p>Python数据分析工程师</p></li>
+                           <li ><a href = "javascript:void(0)" onclick = "document.getElementById('quanzhan').style.display='block';document.getElementById('fade').style.display='block'"><img src="images/fullstackoff.png" id="fullstack" onclick="changeImage('fullstack')"><p>全栈工程师</p></a></li>
+                           <li ><img src="images/JAVEon.png" id="JAVE" onclick="changeImage('JAVE')"><p>Java开发工程师</p></li>
+                           <li ><img src="images/Protaloff.png" id="Protal" onclick="changeImage('Protal')"><p>Protal开发与维护</p></li>
+                           <li ><img src="images/reptileoff.png" id="reptile" onclick="changeImage('reptile')"><p>爬虫工程师</p></li>
+                       </ul>
+                   </div>
+                    <div class="join_map"><img src="images/map.png"></div>
+                </div>
+    <div class="footer" >
+        <div class="footer_content">
+            <div class="logo_footer"><img src="images/logo3.PNG" /></div>
+            <div class="logo_footer_main">联系我们</br>
+                地址：厦门市集美区集美大道1302号创业大厦801-805单元</br>
+                电话：0592-5366007</br>
+                邮编：361021</br>
+                官网：http://www.tiger-movie.com</div>
+            <div class="copyright">版权所有：虎影（厦门）科技有限公司</div>
+        </div>
+    </div>
+</div><!--底部结束-->
+<div id="light" class="white_content">这是一个层窗口示例程序.</div>
+<div id="quanzhan" class="white_content">NodeJS全栈工程师（10k~20k）</div>
+<script type="text/javascript">
+    function changeImage(name){
+
+        var a="images/"+name+"on.png";
+        var b="images/"+name+"off.png";
+
+        
+
+        element=document.getElementById(name);
+        if (element.src.match("off"))
+        {
+            element.src=a;
+        }
+        else
+        {
+            element.src=b;
+        }
+    }
+</script>
+</body>
+</html>

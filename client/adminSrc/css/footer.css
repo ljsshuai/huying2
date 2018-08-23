@@ -1,0 +1,9 @@
+.minifooter{
+  background: #333333;
+  color:#ffffff;
+  text-align: center;
+  margin: 0 auto;
+}
+.minifooter h1{
+  font-size:20px;
+}

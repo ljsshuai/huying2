@@ -1,0 +1,309 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: PingFangSC-Regular,sans-serif;
+    color: #3c3c3c;
+}
+#more{
+    display: none!important;
+}
+.list_container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.list_header {
+    background: url(../images/background3.png) center no-repeat;//此为图片地址
+background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    margin: 0 auto;
+    height: 428px;
+}
+
+.list_title
+{
+    clear:both;
+    text-align: center;
+}
+.list_title span
+{
+    letter-spacing: 20px;
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+.list_main
+{
+    width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    box-sizing: border-box;
+}
+.list_nav img
+{
+    margin-right: 10px;
+    vertical-align: top;
+}
+.list_nav a
+{
+    font-size: 1rem;
+    color: #3c3c3c;
+    opacity: 0.8;
+}
+.main
+{
+    height: auto;
+    margin-top: 60px;
+    padding: 0 50px;
+    text-align: center;
+}
+
+.layer
+{
+    clear: both;
+    width: 1366px;
+    margin: 0 auto;
+
+}
+.layer img
+{
+    width: 332px;
+    height: 454px;
+}
+#login
+{
+    border: 1px solid #CCC;
+    border-radius:10px;
+}
+
+.movice_introduce
+{
+    text-align: left;
+    display: flex;
+    box-shadow: rgba(211,211,211,0.4) 0px 0px 40px;
+    height: 285px;
+    border-radius:15px;
+    margin-bottom: 50px;
+}
+.movice_introduce:hover{
+    box-shadow: rgba(211,211,211,0.6) 0px 5px 60px;
+}
+.movice_introduce_left{
+    /*float: left;*/
+    /* float: left; */
+    vertical-align: top;
+    margin-left: 36px;
+    display: inline-block;
+    margin-top: 27px;
+    /* width: 200px; */
+
+}
+.movice_introduce_left img
+{
+    height: 230px;
+    width: 230px;
+}
+.movice_introduce_right
+{
+    width: 930px;
+    display: inline-block;
+    /*float: left;*/
+    text-align: left;
+    margin-left: 43px;
+}
+.movice_introduce_title
+{
+  margin-top: 45px;
+    font-size: 1.375rem;
+    color: #3c3c3c;
+    font-family: PingFangSC-Semibold,sans-serif;
+}
+
+.movice_introduce_author
+{
+    margin-top: 19px;
+    font-size: 0.875rem;
+    color: #3c3c3c;
+    opacity:0.5;
+}
+.movice_introduce_main
+{
+    height: 85px;
+    overflow: hidden;
+    min-height: 85px;
+    line-height: 30px;
+    font-size: 0.875rem;
+    margin-top: 25px;
+    color: #3c3c3c;
+    opacity:0.8;
+    font-family:PingFangSC-Regular, sans-serif;;
+    margin-right: 43px;
+}
+.movice_introduce_label
+{ margin-top: 10px;
+
+}
+.movice_introduce_label img
+{
+ margin-right:15px;
+    vertical-align: top;
+}
+.movice_introduce2
+{
+    margin-top: 43px;
+    height: 285px;
+    width: 1199px;
+    border:solid 1px #8c8c8c;
+    border-radius:15px;
+    -webkit-box-shadow: #666 0px 0px 10px;
+    -moz-box-shadow: #666 0px 0px 10px;
+    box-shadow: #666 0px 0px 10px;
+}
+.movice_introduce_button
+{
+    font-size: 1.125rem;
+    margin-top: 77px;
+    margin-right: 150px;
+    float: right;
+    text-align: center;
+}
+.movice_introduce_button a
+{
+    text-align: center;
+    display:block;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    margin-right: 10px;
+    border: 1px solid #CCC;
+    font-size: 1.125rem;
+    float: left;
+}
+.movice_introduce_button select
+{
+    text-align: center;
+    width:100px;
+    height:40px;
+    font-size: 1.125rem;
+
+}
+
+
+
+
+#demo7{
+    text-align: right;
+}
+
+.layui-laypage .layui-laypage-curr .layui-laypage-em{
+    background: #fe393e !important;
+}
+
+@media screen and (max-width: 1440px) {
+    /*.list_nav {*/
+    /*margin-left: 50px;*/
+    /*}*/
+    .list_main{
+        width: 1024px;
+        padding: 0 40px !important;
+        box-sizing: border-box;
+    }
+    .movice_introduce{
+        height: auto;
+        padding:30px;
+    }
+    .movice_introduce_left{
+        margin: 0;
+
+    }
+    .movice_introduce_left img{
+        width: 180px;
+        height:180px;
+    }
+    .movice_introduce_title{
+        margin-top: 0;
+        font-size: 1.175rem;
+    }
+    .movice_introduce_author{
+        margin-top: 8px;
+    }
+    .movice_introduce_main{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 1366px) {
+    .list_header{
+        background: url(../images/tiger_talk_phonebg.png) center no-repeat;
+        background-size: 100% 100%;
+    }
+    .list_title span
+    {
+        font-size: 1.8rem!important;
+    }
+    .list_title
+    {
+        margin-top: 150px;
+    }
+    .list_nav
+    {
+        display: none;
+    }
+    .list_main
+    {
+      width: 100%;
+        padding: 0!important;
+    }
+    .main
+    {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .movice_introduce_main
+    {
+        display: none
+    }
+    .movice_introduce_label
+    {
+        display: none;
+    }
+    .movice_introduce
+    {
+        padding: 10px;
+    }
+    .movice_introduce_left img
+    {
+        width: 124px;
+        height: 85px;
+    }
+    .movice_introduce_right
+    {
+        margin-left: 3%;
+    }
+    .movice_introduce_title
+    {
+        font-size: 15px;
+    }
+    .movice_introduce_author
+    {
+        font-size: 10px;
+    }
+    .movice_introduce_title
+    {
+        margin-top: 10px;
+    }
+    .movice_introduce
+    {
+        margin-bottom: 18px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #more {
+        display: block!important;
+    }
+    #demo7
+    {
+        display: none;
+    }
+
+}

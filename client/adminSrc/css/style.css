@@ -1,0 +1,42 @@
+#components-layout-demo-custom-trigger .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, .2);
+    margin: 16px;
+}
+
+
+/* tile uploaded pictures */
+
+
+/* .ant-upload-list-item {
+    float: left;
+    width: 150px;
+    margin-right: 8px;
+} */
+
+.upload-list-inline .ant-upload-animate-enter {
+    animation-name: uploadAnimateInlineIn;
+}
+
+.upload-list-inline .ant-upload-animate-leave {
+    animation-name: uploadAnimateInlineOut;
+}
+
+.galleryClass {
+    margin-left: 20px;
+    height: 32px;
+    vertical-align: top;
+    display: inline-block;
+}

@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: PingFangSC-Regular,sans-serif;
+    color: #3c3c3c;
+}
+.list_container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.list_header {
+    background: url(../images/background6.png) center no-repeat;//此为图片地址
+background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    margin: 0 auto;
+    height: 428px;
+}
+.container_2
+{
+    width: 71%;
+    margin: 0 auto;
+}
+
+.logo_left
+{
+    margin-top: 35px;
+    background-image: url("../images/logo.png");
+    width: 220px;
+    height: 116px;
+    float: left;
+    background-repeat: no-repeat;
+}
+.nav_right
+{
+    float: right;
+    margin-top: 40px;
+}
+.nav_right ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav_right ul li {
+    font-size: 1.125rem;
+    float: left;
+}
+
+.nav_right ul li a, div.nav_right ul li a:visited {
+    color: #FFFFFF;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 33px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.nav_right ul li a:hover {
+    border-style:none;
+    border-bottom-style:solid;
+    border-bottom-width:medium;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav_right ul li a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.list_title
+{
+    clear:both;
+    text-align: center;
+}
+.list_title span
+{
+    font-size: 3rem;
+    color: #FFFFFF;
+    letter-spacing: 20px;
+}
+.list_main
+{   height: 600px;
+    width: 1366px;
+    margin: 0 auto;
+
+
+}
+.introduction1
+{
+    margin-top: 40px;
+    text-align: center;
+}
+.footer
+{
+    background: url("../images/img_footer2.PNG") center no-repeat;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    min-width: 1366px;
+}
+.footer_content
+{
+    text-align: center;
+    width: 1366px;
+    margin:0 auto;
+}
+.logo_footer
+{
+    padding-top: 480px;
+    float:left;
+    margin-left: 84px;
+}
+.logo_footer_main
+{
+    float: left;
+    padding-top: 460px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 80px;
+    line-height: 32px;
+    opacity: 0.8;
+
+}
+.copyright
+{
+    clear: both;
+    padding-top: 80px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    text-align: center;
+
+}
+.layer
+{
+    clear: both;
+    width: 1366px;
+    margin: 0 auto;
+
+}
+.layer img
+{
+    width: 332px;
+    height: 454px;
+}
+#login
+{
+    border: 1px solid #CCC;
+    border-radius:10px;
+
+}
+@media screen and (max-width: 1366px){
+.list_nav
+{
+    margin-left: 100px;
+}
+}

@@ -1,0 +1,290 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: PingFangSC-Regular,sans-serif;
+    color: #3c3c3c;
+}
+.list_container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.list_header {
+    background: url(../images/listbackground.png) center no-repeat;//此为图片地址
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    margin: 0 auto;
+    height: 428px;
+}
+.container_2
+{
+    width: 71%;
+    margin: 0 auto;
+}
+
+/*.logo_left
+{
+    margin-top: 40px;
+    background-image: url("../images/logo.png");
+    width: 220px;
+    height: 116px;
+    float: left;
+    background-repeat: no-repeat;
+}
+.nav_right
+{
+    float: right;
+    margin-top: 40px;
+}
+.nav_right ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav_right ul li {
+    font-size: 1.125rem;
+    float: left;
+}
+
+.nav_right ul li a, div.nav_right ul li a:visited {
+    color: #FFFFFF;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 33px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.nav_right ul li a:hover {
+    border-style:none;
+    border-bottom-style:solid;
+    border-bottom-width:medium;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav_right ul li a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}*/
+.list_title
+{
+    clear:both;
+    text-align: center;
+}
+.list_title span
+{
+    font-size: 3rem;
+    color: #FFFFFF;
+    letter-spacing: 20px;
+}
+.list_main
+{
+    width:1200px;
+    margin: 0 auto;
+}
+.list_nav img
+{
+    margin-right: 10px;
+    margin-bottom: -2px;
+}
+.list_nav a
+{
+    font-size: 1rem;
+    color: #3c3c3c;
+    opacity: 0.8;
+}
+.movice_list
+{
+    margin-top: 50px;
+}
+.list_movice_title p
+{
+    font-size: 1.875rem;
+    float: left;
+    margin-right: 16px;
+}
+.list_movice_time p
+{
+    margin-top: 16px;
+    float: left;
+}
+#login
+{
+    border: 1px solid #CCC;
+    border-radius:10px;
+}
+#time
+{
+    font-size: 1rem;
+    color: #FD393E;
+}
+.movice_type select
+{
+    text-align: center;
+    font-size: 0.875rem;
+    height:40px;
+    width: 100px;
+    /*float: right;*/
+    border:solid 1px #8c8c8c;
+    border-right-color: rgb(204,0,102);
+}
+.movice_data
+{
+  clear: both;
+
+  width: 100%;
+}
+.movice_data div
+{
+    margin-top:2rem;
+    float: left;
+    width: 180px;
+    height: 127px;
+    border:solid 1px #e1e1e1;
+    margin-right: 23px;
+    text-align: center;
+    border-radius:15px;
+    -webkit-box-shadow: #e1e1e1 0px 0px 10px;
+    -moz-box-shadow: #e1e1e1 0px 0px 10px;
+    box-shadow: #e1e1e1 0px 0px 10px;
+}
+.movice_data div p
+{
+    margin-top: 25px;
+    font-size:0.875rem;
+    color: #3c3c3c;
+    font-family: 微软雅黑;
+    opacity: 0.7;
+}
+.movice_data div span
+{
+    font-size: 1.375rem;
+    color: #3c3c3c;
+    font-family: PingFangSC-Semibold, sans-serif;
+}
+.table
+{
+    /*margin-top: 300px;*/
+}
+.table thead
+{
+    background: #f3f3f3;
+    border: 1px solid #eaeaea;
+}
+.table thead th{
+    height: 60px;
+
+}
+.table thead span
+{
+    margin-left: 21px;
+
+}
+.movice_list_table
+{
+    border-collapse:collapse;//表格单元格间距样式
+    border:1px solid #f3f3f3;
+    text-align: left;
+    background: #FFFFFF;
+    width: 100%;
+    margin-top: 2rem;
+}
+.movice_list_table tr
+{
+    /*border:1px solid #c4c4c4;*/
+}
+.movice_list_table td
+{
+    border:0px;
+}
+.movice_list_table tbody
+{
+    margin-left: 21px;
+}
+.list1
+{
+
+}
+.list1_left
+{
+    float: left;
+    text-align: center;
+    margin-left: 21px;
+    width: 43px;
+    height: 142px;
+    background: #FE393E;
+}
+.list1_left img
+{
+    margin-top: 50px;
+}
+.list1_left p
+{
+    font-size: 1.375rem;
+    color: #FFFFFF;
+    font-family: PingFangSC-Semibold, sans-serif;
+}
+.list1_right
+{
+
+    float: left;
+}
+.list1_right img
+{
+     width: 98px;
+    height: 142px;
+}
+.movice_name  strong
+{
+    margin-left: 15px;
+    font-size: 1rem;
+    color: #3c3c3c;
+    font-family:  PingFangSC-Semibold, sans-serif;
+}
+.movice_name span
+{
+    margin-left: 15px;
+    font-size: 0.75rem;
+    color: #3c3c3c;
+    opacity:0.8;
+    font-family: PingFangSC-Regular, sans-serif;
+}
+.movice_data:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+.td p
+{
+    margin-left: 15px;
+    font-size: 0.75rem;
+}
+.list1_left_number
+{
+    text-align: center;
+    line-height: 143px;
+    height: 143px;
+}
+.table p
+{
+    text-align: center;
+}
+    /*尾部*/
+
+.layer
+{
+    clear: both;
+    width: 1366px;
+    margin: 0 auto;
+
+}
+.layer img
+{
+    width: 332px;
+    height: 454px;
+}

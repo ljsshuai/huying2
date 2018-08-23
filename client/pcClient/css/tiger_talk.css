@@ -1,0 +1,284 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: PingFangSC-Regular,sans-serif;
+    color: #3c3c3c;
+}
+.list_container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.list_header {
+    background: url(../images/background3.png) center no-repeat;//此为图片地址
+background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    margin: 0 auto;
+    height: 428px;
+}
+.container_2
+{
+    width: 71%;
+    margin: 0 auto;
+}
+
+.logo_left
+{
+    margin-top: 40px;
+    background-image: url("../images/logo.png");
+    width: 220px;
+    height: 116px;
+    float: left;
+    background-repeat: no-repeat;
+}
+.nav_right
+{
+    float: right;
+    margin-top: 40px;
+}
+.nav_right ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav_right ul li {
+    font-size: 1.125rem;
+    float: left;
+}
+
+.nav_right ul li a, div.nav_right ul li a:visited {
+    color: #FFFFFF;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 33px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.nav_right ul li a:hover {
+    border-style:none;
+    border-bottom-style:solid;
+    border-bottom-width:medium;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav_right ul li a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.list_title
+{
+    clear:both;
+    text-align: center;
+}
+.list_title span
+{
+    letter-spacing: 20px;
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+.list_main
+{
+    width: 71%;
+    margin: 0 auto;
+    height: auto;
+}
+.list_nav img
+{
+    margin-right: 10px;
+}
+.list_nav a
+{
+    font-size: 1rem;
+    color: #3c3c3c;
+    opacity: 0.8;
+}
+.main
+{
+    height: auto;
+    margin-top: 60px;
+    text-align: center;
+}
+.footer
+{
+    background: url("../images/img_footer2.PNG") center no-repeat;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    min-width: 1366px;
+}
+.footer_content
+{
+    text-align: center;
+    width: 1366px;
+    margin:0 auto;
+}
+.logo_footer
+{
+    padding-top: 480px;
+    float:left;
+    margin-left: 84px;
+}
+.logo_footer_main
+{
+    float: left;
+    padding-top: 350px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 80px;
+    line-height: 32px;
+    opacity: 0.8;
+
+}
+.copyright
+{
+    clear: both;
+    padding-top: 60px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    text-align: center;
+
+}
+.layer
+{
+    clear: both;
+    width: 1366px;
+    margin: 0 auto;
+
+}
+.layer img
+{
+    width: 332px;
+    height: 454px;
+}
+#login
+{
+    border: 1px solid #CCC;
+    border-radius:10px;
+}
+
+.movice_introduce
+{
+    height: 285px;
+    width: 1199px;
+    border:solid 1px #8c8c8c;
+    border-radius:15px;
+    -webkit-box-shadow: #666 0px 0px 10px;
+    -moz-box-shadow: #666 0px 0px 10px;
+    box-shadow: #666 0px 0px 10px;
+}
+.movice_introduce_left{
+    float: left;
+    margin-left: 36px;
+    margin-top: 27px;
+
+}
+.movice_introduce_left img
+{
+    height: 230px;
+    width: 230px;
+}
+.movice_introduce_right
+{
+    float: left;
+    text-align: left;
+    margin-left: 43px;
+}
+.movice_introduce_title
+{
+  margin-top: 45px;
+    font-size: 1.375rem;
+    color: #3c3c3c;
+    font-family: PingFangSC-Semibold,sans-serif;
+}
+
+.movice_introduce_author
+{
+    margin-top: 19px;
+    font-size: 0.875rem;
+    color: #3c3c3c;
+    opacity:0.5;
+}
+.movice_introduce_main
+{
+    line-height: 30px;
+    width: 800px;
+    font-size: 0.875rem;
+    margin-top: 25px;
+    color: #3c3c3c;
+    opacity:0.8;
+    font-family:PingFangSC-Regular, sans-serif;;
+    margin-right: 43px;
+}
+.movice_introduce_label
+{ margin-top: 10px;
+
+}
+.movice_introduce_label img
+{
+ margin-right:15px;
+}
+.movice_introduce2
+{
+    margin-top: 43px;
+    height: 285px;
+    width: 1199px;
+    border:solid 1px #8c8c8c;
+    border-radius:15px;
+    -webkit-box-shadow: #666 0px 0px 10px;
+    -moz-box-shadow: #666 0px 0px 10px;
+    box-shadow: #666 0px 0px 10px;
+}
+.movice_introduce_button
+{
+    font-size: 1.125rem;
+    margin-top: 77px;
+    margin-right: 150px;
+    float: right;
+    text-align: center;
+}
+.movice_introduce_button a
+{
+    text-align: center;
+    display:block;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    margin-right: 10px;
+    border: 1px solid #CCC;
+    font-size: 1.125rem;
+    float: left;
+}
+.movice_introduce_button select
+{
+    text-align: center;
+    width:100px;
+    height:40px;
+    font-size: 1.125rem;
+
+}
+@media screen and (max-width: 1366px) {
+.list_main
+{
+  width: 100%;
+}
+.list_nav
+{
+    margin-left: 90px;
+}
+.container_2
+{
+    width: 100%;
+}
+.logo_left
+{
+    margin-left: 80px;
+}
+.nav_right
+{
+    margin-right: 60px;
+}
+}

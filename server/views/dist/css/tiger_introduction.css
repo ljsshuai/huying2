@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: PingFangSC-Regular, sans-serif;
+    color: #3c3c3c;
+}
+
+.list_container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.list_header {
+    background: url(../images/background6.png) center no-repeat;
+/ / 此为图片地址 background-size: 100 % 100 %;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    margin: 0 auto;
+    height: 428px;
+}
+
+.list_title {
+    clear: both;
+    text-align: center;
+}
+
+.list_title span {
+    font-size: 3rem;
+    color: #FFFFFF;
+    letter-spacing: 20px;
+}
+
+.list_main {
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 40px;
+}
+.layer {
+    clear: both;
+    width: 1366px;
+    margin: 0 auto;
+
+}
+.layer img {
+    width: 332px;
+    height: 454px;
+}
+
+#login {
+    border: 1px solid #CCC;
+    border-radius: 10px;
+
+}
+
+.introductionList{
+    margin: 0 auto;
+    display: inline-block;
+    width: 46%;
+    min-width: 450px;
+    box-shadow: rgba(211,211,211,0.4) 0px 0px 50px;
+    border-radius:15px;
+    height: 300px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+
+
+}
+
+.introductionList:hover
+{
+    box-shadow: #d3d3d3 0px 5px 50px;
+    position:relative;
+    transform: scale(1.04);
+    -ms-transform:scale(1.04);     /* IE 9 */
+    -moz-transform:scale(1.04);     /* Firefox */
+    -webkit-transform:scale(1.04); /* Safari 和 Chrome */
+    -o-transform:scale(1.04);
+}
+.introductionList:hover p
+{
+    opacity: 1;
+}
+/*.introduction1:hover*/
+/*{*/
+/*box-shadow: #d3d3d3 0px 0px 30px;*/
+/*position:relative;*/
+/*transform: scale(1.1);*/
+/*-ms-transform:scale(1.1);     !* IE 9 *!*/
+/*-moz-transform:scale(1.1);     !* Firefox *!*/
+/*-webkit-transform:scale(1.1); !* Safari 和 Chrome *!*/
+/*-o-transform:scale(1.1);*/
+/*}*/
+
+.introductionList_left
+{
+    float: left;
+    margin-left: 50px;
+    padding-top: 90px;
+}
+.introductionList_right
+{
+    float: left;
+    margin-left: 50px;
+    padding-top: 53px;
+    text-align: left;
+    line-height: 40px;
+}
+.introductionList_right span
+{
+    font-size: 25px;
+    color: red;
+}
+.introductionList_right p
+{
+    font-size: 15px;
+    color: #3c3c3c;
+    opacity:0.5;
+}
+
+
+.introduction
+{
+    /*margin-top: 80px;*/
+    padding:20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.introduction:after{content:'';display:block;clear:both}
+.footer
+{
+    margin-top: 40px;
+}
+.list_nav a
+{
+    opacity: 0.8;
+    text-decoration:none;
+}
+@media screen and (max-width: 1440px) {
+    /*.list_nav {*/
+    /*margin-left: 50px;*/
+    /*}*/
+    .list_main{
+        width: 1024px;
+        padding: 0 40px !important;
+        box-sizing: border-box;
+    }
+    .introductionList_left{
+        margin-left: 10px;
+        padding-top: 70px;
+    }
+    .introductionList_right{
+        margin-left: 10px;
+        padding-top: 33px;
+    }
+    .introductionList{
+        height: 268px;
+        min-width: 430px;
+    }
+    .introduction{
+        padding:18px 0;
+    }
+}
+
+.list_nav{
+    margin-bottom: 80px;
+}
+
+
+.list_nav>img{
+    vertical-align: top;
+}
+@media screen and (max-width: 768px){
+  .list_header
+  {
+        background: url("../images/tiger_introduction_phonebg.png");
+        background-size: 100% 100%;
+        height: 578px;
+  }
+    .list_title span
+  {
+    font-size: 1.8rem!important;
+      letter-spacing: 10px;
+
+  }
+    .list_title
+    {
+        margin-top: 200px;
+    }
+    .list_nav
+    {
+        display: none;
+    }
+    .list_main
+    {
+        width: 100%;
+        padding: 0!important;
+    }
+    .introduction
+    {
+        width: 90%;
+    }
+    .introductionList
+    {
+        min-width: 0;
+        width: 100%;
+    }
+    .introductionList
+    {
+        width: 100%;
+    }
+    .introductionList img
+    {
+        width: 90%;
+    }
+    .introductionList_right span
+    {
+        font-size: 17px;
+    }
+    .introductionList_right p
+    {
+        font-size: 10px;
+        padding-top: 10px;
+    }
+    .introductionList_right
+    {
+        line-height: 18px;
+    }
+    .introduction
+    {
+        padding: 0;
+    }
+    .introductionList
+    {
+        margin-top: 20px;
+        height: 168px;
+    }
+    .introductionList_left
+    {
+        width: 34%;
+        padding-top:0px;
+    }
+    .introductionList_right
+    {
+        padding-top:0px;
+        flex-grow: 1;
+    }
+    .introductionList
+    {
+        padding: 21px;
+        box-sizing: border-box;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+   @media screen and (min-width: 768px) and (max-width: 1024px) {
+       .introductionList img
+       {
+           width: 50%;
+       }
+    }
+}
