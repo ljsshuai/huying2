@@ -27,7 +27,7 @@ window.onscroll = function() {
             $(".layer4").addClass("animated3 fadeInUp");
         }
         if (document.documentElement.scrollTop > 3500 || window.pageYOffset > 3500) {
-            $(".td1").addClass("animated11 fadeInUp");
+            $(".td1").addClass("animated0 fadeInUp");
             $(".td2").addClass("animated0 fadeInUp");
             $(".td3").addClass("animated1 fadeInUp");
             $(".td4").addClass("animated2 fadeInUp");
@@ -39,17 +39,6 @@ window.onscroll = function() {
             $(".td10").addClass("animated8 fadeInUp");
             $(".td11").addClass("animated9 fadeInUp");
             $(".td12").addClass("animated10 fadeInUp");
-        }
-    }
-
-    if($(window).width()<1450)
-    {
-        if (document.documentElement.scrollTop > 3000 || window.pageYOffset > 3000) {
-            $(".data_report_server_title").removeClass("animated0 fadeInUp");
-            $(".layer1").removeClass("animated1 fadeInUp");
-            $(".layer2").removeClass("animated2 fadeInUp");
-            $(".layer3").removeClass("animated3 fadeInUp");
-            $(".layer4").addClass("animated4 fadeInUp");
         }
     }
 

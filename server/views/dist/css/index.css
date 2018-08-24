@@ -743,7 +743,10 @@ table tr td:last-child {
     font-size:1.125rem;
 }
 
-
+.data_report_image
+{
+    height: 0px;
+}
 
 .film_movice_main
 {
@@ -825,7 +828,6 @@ table tr td:last-child {
     }
     .layer
     {
-        width: 1024px;
         padding-top: 0;
     }
     .server{
@@ -1134,6 +1136,10 @@ table tr td:last-child {
     .box_office_title img{
         width: 10px;
         height: 10px;
+    }
+    .we_server
+    {
+        visibility: hidden;
     }
     .we_server_main1
     {
