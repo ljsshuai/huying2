@@ -230,7 +230,6 @@
 .film_movice
 {
     clear: both;
-    visibility: hidden;
 }
 .film_movice_image
 {
@@ -271,7 +270,6 @@
 .marketing_monitoring
 {
     clear: both;
-    visibility: hidden;
 }
 .marketing_monitoring_main
 {
@@ -312,7 +310,7 @@
 .data_report
 {
     clear: both;
-    visibility: hidden;
+
 }
 .data_report_image
 {
@@ -1142,10 +1140,7 @@ table tr td:last-child {
         width: 10px;
         height: 10px;
     }
-    .we_server
-    {
-        visibility: hidden;
-    }
+
     .we_server_main1
     {
         width: 100%;
@@ -1302,7 +1297,7 @@ table tr td:last-child {
         background-image: url("../images/phone_ad.png");
         background-size: 100% 100%;
         width: 80%;
-        height: 1000px;
+        height: 500px;
     }
     .banner
     {

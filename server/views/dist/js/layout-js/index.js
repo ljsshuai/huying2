@@ -41,22 +41,6 @@ window.onscroll = function() {
             $(".td12").addClass("animated10 fadeInUp");
         }
     }
-
-    if($(window).width()<=1024)
-    {
-        if (document.documentElement.scrollTop > 600 || window.pageYOffset > 600) {
-            $(".we_server").addClass("animated slideInLeft");
-        }
-        if (document.documentElement.scrollTop > 1200 || window.pageYOffset > 1200) {
-            $(".film_movice").addClass("animated slideInRight");
-        }
-        if (document.documentElement.scrollTop > 1700 || window.pageYOffset > 1700) {
-            $(".marketing_monitoring").addClass("animated slideInLeft");
-        }
-        if (document.documentElement.scrollTop > 1900 || window.pageYOffset >1900) {
-            $(".data_report").addClass("animated slideInRight");
-        }
-    }
 }
 
 
