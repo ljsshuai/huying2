@@ -42,7 +42,7 @@ window.onscroll = function() {
         }
     }
 
-    if($(window).width()<1024)
+    if($(window).width()<=1024)
     {
         if (document.documentElement.scrollTop > 600 || window.pageYOffset > 600) {
             $(".we_server").addClass("animated slideInLeft");
@@ -138,7 +138,7 @@ layui.use('jquery', function () {
             newArr.push(scrllArr.pop())
             scrllArr = newArr.concat(scrllArr)
             $('.carousel-ul-div>div').each(function (index, val) {
-                if (scrllArr[index].left == '50%') {
+                if (scrllArr[index].left == '28%') {
                     $('#server_region3').find('.server_region3:nth-child(' + (index + 1) + ')').css('display', 'block').siblings().css('display', 'none');
                     $('#server_region3').find('.server_region3:nth-child(' + (index + 1) + ')').addClass("animated fadeIn").siblings().removeClass('animated slideInLeft');
                     $(this).attr('isSelect', 'true');
@@ -159,8 +159,6 @@ layui.use('jquery', function () {
                 $(this).css('background', scrllArr[index].background);
             })
         }
-
-
         //
         var t=setInterval(setInter,2000)
         $('.carousel-ul-div>div,.carousel-ul li').mousemove(function(){
@@ -170,8 +168,6 @@ layui.use('jquery', function () {
             clearInterval(t)
             t=setInterval(setInter,2000)
         });
-
-
         $('.carousel-ul-div>div').each(function (e, val) {
             $(val).click(function () {
                 // clearInterval(t)
@@ -223,3 +219,30 @@ layui.use('jquery', function () {
         })
     }
 })
+
+
+$(function(){
+    //获取浏览器宽度
+    var _width = $(window).width();
+    if(_width>1024){
+        $('.banner_image table').html('  <tr>\n' +
+            '                <td class="td1"><img src="images/ad1.png"></td>\n' +
+            '                <td class="td2"><img src="images/ad2.png"></td>\n' +
+            '                <td class="td3"><img src="images/ad3.png"></td>\n' +
+            '                <td class="td4"><img src="images/ad4.png"></td>\n' +
+            '            </tr>\n' +
+            '            <tr>\n' +
+            '                <td class="td5"><img src="images/ad5.png"></td>\n' +
+            '                <td class="td6"><img src="images/ad6.png"></td>\n' +
+            '                <td class="td7"><img src="images/ad7.png"></td>\n' +
+            '                <td class="td8"><img src="images/ad8.png"></td>\n' +
+            '            </tr>\n' +
+            '            <tr>\n' +
+            '                <td class="td9"><img src="images/ad9.png"></td>\n' +
+            '                <td class="td10"><img src="images/ad10.png"></td>\n' +
+            '                <td class="td11"><img src="images/ad11.png"></td>\n' +
+            '                <td class="td12"><img src="images/ad12.png"></td>\n' +
+            '            </tr>');
+    }
+});
+

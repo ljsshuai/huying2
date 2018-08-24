@@ -433,6 +433,7 @@
 {
     margin-top: 60px;
 }
+
 table
 {
     height: 600px;
@@ -950,6 +951,10 @@ table tr td:last-child {
 }
 
 @media screen and (max-width: 1024px) {
+    .banner_image
+    {
+        display: none;
+    }
     .pc-banner
     {
         display: block;
@@ -1290,17 +1295,14 @@ table tr td:last-child {
         margin-top: 20px;
         font-size:1rem;
     }
-    .banner_image
-    {
-        display: none;
-    }
+
     .banner_image_phone
     {
         display: block;
         background-image: url("../images/phone_ad.png");
         background-size: 100% 100%;
         width: 80%;
-        height: 550px;
+        height: 1000px;
     }
     .banner
     {
