@@ -1,7 +1,7 @@
 window.onscroll = function() {
     /*console.log(document.documentElement.scrollTop,document.querySelector('.server_region2').offsetTop)*/
     /*console.log(window.pageYOffset)*/
-    if($(window).width()>1024) {
+    if($(window).width()>1440) {
         if (document.documentElement.scrollTop > 600 || window.pageYOffset > 600) {
             $(".we_server_title").addClass("animated slideInUp");
             $(".we_server_main1").addClass("animated slideInLeft");
@@ -19,15 +19,58 @@ window.onscroll = function() {
             $(".data_report_image").addClass("animated slideInLeft");
             $(".data_report_main").addClass("animated slideInRight");
         }
-        if (document.documentElement.scrollTop > 2500 || window.pageYOffset > 2500) {
+            if (document.documentElement.scrollTop > 2500 || window.pageYOffset > 2500) {
+                $(".data_report_server_title").addClass("animated0 fadeInUp");
+                $(".layer1").addClass("animated0 fadeInUp");
+                $(".layer2").addClass("animated1 fadeInUp");
+                $(".layer3").addClass("animated2 fadeInUp");
+                $(".layer4").addClass("animated3 fadeInUp");
+            }
+            if (document.documentElement.scrollTop > 3500 || window.pageYOffset > 3500) {
+                $(".td1").addClass("animated0 fadeInUp");
+                $(".banner_image").css("visibility","visible");
+                $(".td2").addClass("animated0 fadeInUp");
+                $(".td3").addClass("animated1 fadeInUp");
+                $(".td4").addClass("animated2 fadeInUp");
+                $(".td5").addClass("animated3 fadeInUp");
+                $(".td6").addClass("animated4 fadeInUp");
+                $(".td7").addClass("animated5 fadeInUp");
+                $(".td8").addClass("animated6 fadeInUp");
+                $(".td9").addClass("animated7 fadeInUp");
+                $(".td10").addClass("animated8 fadeInUp");
+                $(".td11").addClass("animated9 fadeInUp");
+                $(".td12").addClass("animated10 fadeInUp");
+            }
+
+    }
+    if($(window).width()<=1440&&$(window).width()>=1366) {
+        if (document.documentElement.scrollTop > 600 || window.pageYOffset > 600) {
+            $(".we_server_title").addClass("animated slideInUp");
+            $(".we_server_main1").addClass("animated slideInLeft");
+            $(".box_office_main_image").addClass("animated slideInRight");
+        }
+        if (document.documentElement.scrollTop > 1200 || window.pageYOffset > 1200) {
+            $(".film_movice_image").addClass("animated slideInLeft");
+            $(".film_movice_main").addClass("animated slideInRight");
+        }
+        if (document.documentElement.scrollTop > 1700 || window.pageYOffset > 1700) {
+            $(".marketing_monitoring_main").addClass("animated slideInLeft");
+            $(".marketing_monitoring_image").addClass("animated slideInRight");
+        }
+        if (document.documentElement.scrollTop > 2200 || window.pageYOffset > 2200) {
+            $(".data_report_image").addClass("animated slideInLeft");
+            $(".data_report_main").addClass("animated slideInRight");
+        }
+        if (document.documentElement.scrollTop > 2000 || window.pageYOffset > 2000) {
             $(".data_report_server_title").addClass("animated0 fadeInUp");
             $(".layer1").addClass("animated0 fadeInUp");
             $(".layer2").addClass("animated1 fadeInUp");
             $(".layer3").addClass("animated2 fadeInUp");
             $(".layer4").addClass("animated3 fadeInUp");
         }
-        if (document.documentElement.scrollTop > 3500 || window.pageYOffset > 3500) {
+        if (document.documentElement.scrollTop > 2700 || window.pageYOffset > 2700) {
             $(".td1").addClass("animated0 fadeInUp");
+            $(".banner_image").css("visibility","visible");
             $(".td2").addClass("animated0 fadeInUp");
             $(".td3").addClass("animated1 fadeInUp");
             $(".td4").addClass("animated2 fadeInUp");

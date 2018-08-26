@@ -109,7 +109,7 @@ layui.use(['laypage', 'layer'], function () {
                 }
             },
             error: function(xhr, type){
-                alert('Ajax error!');
+             /* alert('Ajax error!');*/
             }
         });
     }
