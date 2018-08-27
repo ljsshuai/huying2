@@ -27,6 +27,7 @@
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  visibility: visible;
 }
 .animated2 {
    animation-delay:1.3s;
@@ -34,6 +35,7 @@
    animation-duration: 2s;
    -webkit-animation-fill-mode: both;
    animation-fill-mode: both;
+  visibility: visible;
  }
 .animated3 {
   animation-delay:1.4s;
@@ -41,6 +43,7 @@
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  visibility: visible;
 }
 .animated4 {
   animation-delay:1.5s;
@@ -48,6 +51,7 @@
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  visibility: visible;
 }
 .animated5 {
   animation-delay:1.6s;
@@ -55,6 +59,7 @@
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  visibility: visible;
 }
 .animated6 {
   animation-delay:1.7s;
@@ -62,6 +67,7 @@
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  visibility: visible;
 }
 .animated7 {
   animation-delay:1.8s;
@@ -69,6 +75,7 @@
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  visibility: visible;
 }
 .animated8 {
   animation-delay:1.9s;
@@ -76,6 +83,7 @@
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  visibility: visible;
 }
 .animated8 {
   animation-delay:2.0s;
@@ -83,6 +91,7 @@
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  visibility: visible;
 }
 .animated9 {
   animation-delay:2.1s;
@@ -90,6 +99,7 @@
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  visibility: visible;
 }
 .animated10 {
   animation-delay:2.2s;
@@ -97,12 +107,14 @@
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  visibility: visible;
 }
 .animated11 {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  visibility: visible;
 }
 .animated.infinite {
   -webkit-animation-iteration-count: infinite;

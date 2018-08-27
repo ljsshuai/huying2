@@ -83,6 +83,10 @@ background-size: 100% 100%;
 {
     margin-top: 50px;
 }
+.company_profile_text_phone
+{
+    display: none;
+}
 .company_profile_text p
 {
     line-height: 40px;
@@ -324,11 +328,38 @@ background-size: 100% 100%;
     {
         background: #f5f5f5;
     }
+    .join_map
+    {
+        width: 80%;
+    }
 
 }
 @media screen and (max-width: 1024px)
 {
     .container{
         display: none;
+    }
+    .company_profile_text
+    {
+        display: none;
+    }
+    .company_profile_text_phone
+    {
+        display: block;
+    }
+    .company_profile_text_phone p
+    {
+        line-height: 23px;
+        font-size: 13px;
+        color: #3c3c3c;
+        letter-spacing:5px;
+        font-family:PingFangSC-Regular, sans-serif ;
+        padding: 30px;
+        text-align: left;
+        text-indent: 32px;
+    }
+    .join_map
+    {
+        width: 100%;
     }
 }
