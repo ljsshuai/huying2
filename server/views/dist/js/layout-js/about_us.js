@@ -3,7 +3,6 @@ layui.use('layer', function(){ //独立版的layer无需执行这一句
     var $ = layui.jquery, layer = layui.layer; //独立版的layer无需执行这一句
     //触发事件
     function changeImage(name){
-
     }
     var active = {
         setTop: function(){
@@ -15,6 +14,7 @@ layui.use('layer', function(){ //独立版的layer无需执行这一句
                 ,area: ['390px', '260px']
                 ,shade: 0
                 ,maxmin: true
+                ,scrollbar: false
                 ,offset: [ //为了演示，随机坐标
                     Math.random()*($(window).height()-300)
                     ,Math.random()*($(window).width()-390)
@@ -43,7 +43,7 @@ layui.use('layer', function(){ //独立版的layer无需执行这一句
         }
         ,notice: function(e){
             //示范一个公告层
-            console.log(window.screen.availWidth<700,window.screen.availWidth*0.9)
+            console.log(window.screen.availWidth<700,window.screen.availWidth*0.9);
             layer.open({
                 type: 1
                 ,title: false //不显示标题栏
@@ -52,18 +52,12 @@ layui.use('layer', function(){ //独立版的layer无需执行这一句
                 // ,btn: ['火速围观', '残忍拒绝']/**/
                 ,btnAlign: 'c'
                 ,offset: window.screen.availWidth<700? '20px':"auto",
-                area: window.screen.availWidth<700?[window.screen.availWidth*0.9+'px', window.screen.availHeight-150+'px']:['600px', 'auto'],
+                area: window.screen.availWidth<700?[window.screen.availWidth*0.8+'px', window.screen.availHeight-150+'px']:['600px', 'auto'],
                 shadeClose:true,
                 closeBtn:2
                 ,moveType: 1 //拖拽模式，0或者1
                 ,content: '<div style="padding: 30px;word-break:break-al; line-height: 22px; background-color: #fff; font-weight: 300;border-radius: 5px">'+'<h2 style="margin-bottom:20px">'+$(e).next().text()+'<i style="font-size:16px;color:#ccc;    font-style: normal;margin-left:20px">('+$(e).parent().find('.pay').html()+')</i>'+'</h2>'+$(e).parent().find('.short').html()+'</div>'
-                ,success: function(layero){
-                    // var btn = layero.find('.layui-layer-btn');
-                    // btn.find('.layui-layer-btn0').attr({
-                    //     href: 'http://www.layui.com/'
-                    //     ,target: '_blank'
-                    // });
-                }
+                ,scrollbar: false
             });
         }
         ,offset: function(othis){
@@ -71,7 +65,8 @@ layui.use('layer', function(){ //独立版的layer无需执行这一句
                 ,text = othis.text();
 
             layer.open({
-                type: 1
+               type: 1
+                ,scrollbar: false
                 ,offset: type //具体配置参考：http://www.layui.com/doc/modules/layer.html#offset
                 ,id: 'layerDemo'+type //防止重复弹出
                 ,content: '<div style="padding: 20px 100px;">'+ text +'</div>'
@@ -118,7 +113,7 @@ var marker1 = new BMap.Marker(new BMap.Point(118.078483,24.613542));  // 创建�
 map.addOverlay(marker1);              // 将标注添加到地图中
 marker1.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
 var infoWindow1 = new BMap.InfoWindow("<p style='font-size:15px;color: #CC5522;font-weight: bold;white-space: nowrap;line-height: 20px;'>虎影科技有限公司<br/></p>" +
-    "<p style='font-size:12px;line-height: 20px;'>地址：厦门市集美大道1302号创业大厦<br/>801-805单元</p>" + "<p style='font-size:12px;'>电话：0592-5366007</p>");              //给标注添加信息框
+    "<p style='font-size:13px;line-height: 20px;'>地址：厦门市集美大道1302号创业大厦<br/>801-805单元</p>" + "<p style='font-size:13px;'>电话：0592-5366007</p>");              //给标注添加信息框
 //给mark添加鼠标单击事件
 marker1.addEventListener("click", function () { this.openInfoWindow(infoWindow1); });
 setTimeout(function () {

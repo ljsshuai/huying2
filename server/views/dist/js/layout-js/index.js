@@ -1,7 +1,7 @@
 window.onscroll = function() {
     /*console.log(document.documentElement.scrollTop,document.querySelector('.server_region2').offsetTop)*/
     /*console.log(window.pageYOffset)*/
-    if($(window).width()>1440) {
+    if(document.documentElement.clientWidth>1440) {
         if (document.documentElement.scrollTop > 600 || window.pageYOffset > 600) {
             $(".we_server_title").addClass("animated slideInUp");
             $(".we_server_main1").addClass("animated slideInLeft");
@@ -42,8 +42,8 @@ window.onscroll = function() {
                 $(".td12").addClass("animated10 fadeInUp");
             }
 
-    }
-    if($(window).width()<=1440&&$(window).width()>=1366) {
+    }else if(document.documentElement.clientWidth<=1440&&document.documentElement.clientWidth>1024) {
+        console.log(document.documentElement.clientWidth);
         if (document.documentElement.scrollTop > 600 || window.pageYOffset > 600) {
             $(".we_server_title").addClass("animated slideInUp");
             $(".we_server_main1").addClass("animated slideInLeft");

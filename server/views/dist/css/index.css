@@ -950,7 +950,17 @@ table tr td:last-child {
 .activeCarouseDiv>a{
     font-size:35px !important;
 }
-
+@media screen and (max-width: 1366px)
+{
+    .layer1,.layer2,.layer3,.layer4
+    {
+        height: 410px;
+    }
+    .layer1_title,.layer2_title,.layer3_title,.layer4_title
+    {
+        margin-top: 5px;
+    }
+}
 @media screen and (max-width: 1024px) {
     .we_server,.film_movice,.marketing_monitoring,.data_report,.data_report_server_title
     {
@@ -1327,30 +1337,12 @@ table tr td:last-child {
     {
         display: block;
     }
-    .layer1
+    .layer1,.layer2,.layer3,.layer4
     {
         width: 335px;
-
+        height: 487px;
         margin: 0 auto;
     }
-    .layer2
-    {
-        width: 335px;
-
-        margin: 0 auto;
-    }
-    .layer3
-    {
-        width: 335px;
-
-        margin: 0 auto;
-    }
-    .layer4
-    {
-        width: 335px;
-        margin: 0 auto;
-    }
-
 }
 
 
@@ -1359,17 +1351,7 @@ table tr td:last-child {
     width: 100%;
     float: left;
 }
-@media screen and (max-width: 1366px)
-{
-    .layer1,.layer2,.layer3,.layer4
-    {
-        height: 410px;
-    }
-    .layer1_title,.layer2_title,.layer3_title,.layer4_title
-    {
-        margin-top: 5px;
-    }
-}
+
 @media screen and (max-width: 668px) {
     .pc-banner {
         background-size: auto 100%;

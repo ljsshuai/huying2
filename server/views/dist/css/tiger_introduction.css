@@ -143,10 +143,7 @@
     /*.list_nav {*/
     /*margin-left: 50px;*/
     /*}*/
-    .container
-    {
-        display: none;
-    }
+
     .list_main{
         width: 1024px;
         padding: 0 40px !important;
@@ -178,6 +175,10 @@
     vertical-align: top;
 }
 @media screen and (max-width: 768px){
+    .container
+    {
+        display: none;
+    }
   .list_header
   {
         background: url("../images/tiger_introduction_phonebg.png");
