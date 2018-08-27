@@ -819,10 +819,12 @@ table tr td:last-child {
 {
     display: none;
 }
-
+.we_server,.film_movice,.marketing_monitoring,.data_report,.layer,.banner_image{
+    visibility: hidden;
+}
 /*¿í¶ÈÐ¡ÓÚ1366*/
 @media screen and (max-width: 1440px){
-    .we_server,.film_movice,.marketing_monitoring,.data_report,.layer,.banner_image{
+    .we_server,.we_server_title,.film_movice,.marketing_monitoring,.data_report,.layer,.banner_image{
         visibility: hidden;
     }
     .header {

@@ -3,7 +3,7 @@ window.onscroll = function() {
     /*console.log(window.pageYOffset)*/
     if(document.documentElement.clientWidth>1440) {
         if (document.documentElement.scrollTop > 600 || window.pageYOffset > 600) {
-            $(".we_server_title").addClass("animated slideInUp");
+            $(".we_server_title").addClass("animated slideInUp").css("visibility","visible");
             $(".we_server_main1").addClass("animated slideInLeft");
             $(".box_office_main_image").addClass("animated slideInRight");
         }
@@ -45,7 +45,7 @@ window.onscroll = function() {
     }else if(document.documentElement.clientWidth<=1440&&document.documentElement.clientWidth>1024) {
         console.log(document.documentElement.clientWidth);
         if (document.documentElement.scrollTop > 600 || window.pageYOffset > 600) {
-            $(".we_server_title").addClass("animated slideInUp");
+            $(".we_server_title").addClass("animated slideInUp").css("visibility","visible");
             $(".we_server_main1").addClass("animated slideInLeft");
             $(".box_office_main_image").addClass("animated slideInRight");
         }
