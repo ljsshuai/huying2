@@ -46,8 +46,8 @@ function switchp() {
 
 
 document.getElementsByClassName('drop-down')[0].addEventListener( 'mouseenter',function(e){
-    $('.drop-down-content').slideDown(800);
+    $('.drop-down-content').slideDown(700);
 });
 document.getElementsByClassName('drop-down')[0].addEventListener( 'mouseleave', function(){
-    $('.drop-down-content').slideUp(800);
+    $('.drop-down-content').slideUp(700);
 });

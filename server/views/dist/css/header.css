@@ -14,7 +14,6 @@
     border-bottom-width:medium;
     text-decoration: none;
     color: #FFFFFF;
-
 }
 .logo_nav {
     /*width: 1366px;*/
@@ -51,10 +50,11 @@
 .nav_right ul li a, div.nav_right ul li a:visited {
     color: #FFFFFF;
     display: block;
-    line-height: 1.35em;
+    line-height: 1.35rem;
     padding: 12px 33px;
     text-decoration: none;
     white-space: nowrap;
+    list-style-type:none!important;
 }
 .nav_right>ul>li>a:hover{
     border-style:none;
@@ -94,7 +94,7 @@ ul a{
     width: 100px;
     height: 30px;
     text-align: center;
-
+    list-style:none;
 }
 .drop-down{
     position: relative;
@@ -107,11 +107,11 @@ ul a{
 }
 .drop-down-content li{
     background: rgba(0,0,0,0.4);
-    border-style:none;
     border-bottom-style:solid;
     border-bottom-width:thin;
     text-decoration: none;
     color: #FFFFFF;
+    list-style-type:none!important;
 }
 
 .drop-down ul
